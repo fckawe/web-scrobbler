@@ -1903,6 +1903,13 @@ const connectors = [{
 	js: 'connectors/auborddeleau.radio.js',
 	id: 'auborddeleau.radio',
 	allFrames: true,
+}, {
+	label: 'Radio BOB!',
+	matches: [
+		'*://*radiobob.de/*',
+	],
+	js: 'connectors/radiobob.js',
+	id: 'radiobob',
 }];
 
 define(() => connectors);
